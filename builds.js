@@ -59,7 +59,6 @@ $(document).ready(function() {
 					android: null,
 					win: null,
 					osx: null,
-					ios: null,
 					switch: null,
 					xbox: null,
 					linux: null
@@ -103,7 +102,6 @@ $(document).ready(function() {
 				+ '<th><img src="windows.png" /> Windows x64</th>'
 				+ '<th><img src="ubuntu.png" /> Linux AppImage</th>'
 				+ '<th><img src="apple.png" /> macOS</th>'
-				+ '<th><img src="apple.png" /> iOS</th>'
 				+ '<th><img src="switch.png" /> Switch</th>'
 				+ '<th><img src="xbox.png" /> Xbox One</th>'
 				+ '<th>Test Results</th></tr>');
@@ -135,9 +133,6 @@ $(document).ready(function() {
 				s_osx = (commit.platforms.osx == null) ? '' : '<a data-action="download" data-build="' 
 					+ commit_id + '" href="https://flycast-builds.s3.fr-par.scw.cloud/' + commit.platforms.osx.path 
 					+ '">Download</a> (' + format_size(commit.platforms.osx.filesize) + ')';
-				s_ios = (commit.platforms.ios == null) ? '' : '<a data-action="download" data-build="' 
-					+ commit_id + '" href="https://flycast-builds.s3.fr-par.scw.cloud/' + commit.platforms.ios.path 
-					+ '">Download</a> (' + format_size(commit.platforms.ios.filesize) + ')';
 				s_switch = (commit.platforms.switch == null) ? '' : '<a data-action="download" data-build="' 
 					+ commit_id + '" href="https://flycast-builds.s3.fr-par.scw.cloud/' + commit.platforms.switch.path 
 					+ '">Download</a> (' + format_size(commit.platforms.switch.filesize) + ')';
@@ -152,7 +147,6 @@ $(document).ready(function() {
 					+ '</td><td>' + s_win64 + '</td><td>' 
 					+ s_linux + '</td><td>'
 					+ s_osx + '</td><td>'
-					+ s_ios + '</td><td>'
 					+ s_switch + '</td><td>'
 					+ s_xbox + '</td>'
 					+ test_column + '</tr>');
