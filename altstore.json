@@ -1,12 +1,12 @@
 {
-  "name": "Flyinghead",
-  "identifier": "com.flyinghead.source",
+  "name": "Gloop",
+  "identifier": "com.gloop.source",
   "apps": [
     {
       "beta": false,
-      "name": "Flycast",
-      "bundleIdentifier": "com.flyinghead.Flycast",
-      "developerName": "Flyinghead",
+      "name": "deltamobile",
+      "bundleIdentifier": "com.gloop.deltamobile",
+      "developerName": "Gloop",
       "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
       "version": "v2.5",
       "versionDate": "2025-05-07T11:36:00+02:00",
