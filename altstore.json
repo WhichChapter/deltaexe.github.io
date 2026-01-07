@@ -1,19 +1,18 @@
-
 {
-  "name": "DeltaExe",
-  "identifier": "com.deltaexe.source",
+  "name": "Flyinghead",
+  "identifier": "com.flyinghead.source",
   "apps": [
     {
       "beta": false,
-      "name": "Deltaexe",
-      "bundleIdentifier": "com.deltaexe.Delta",
-      "developerName": "delta",
-      "subtitle": "Delta executor.",
-      "version": "v1.0",
+      "name": "Flycast",
+      "bundleIdentifier": "com.flyinghead.Flycast",
+      "developerName": "Flyinghead",
+      "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
+      "version": "v2.5",
       "versionDate": "2025-05-07T11:36:00+02:00",
-      "versionDescription": "First",
+      "versionDescription": "DCNet support, new on-screen gamepad",
       "downloadURL": "https://github.com/WhichChapter/probable-disco/releases/download/A/Delta-2.702.633.ipa",
-      "localizedDescription": "DeltaExe is a delta executor.",
+      "localizedDescription": "Flycast is a Dreamcast, Naomi, Naomi 2 and Atomiswave emulator.",
       "iconURL": "https://github.com/flyinghead/flycast/raw/master/shell/linux/flycast.png",
       "tintColor": "9b54fd",
       "size": 8161611,
