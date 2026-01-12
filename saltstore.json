@@ -1,11 +1,11 @@
 {
-  "name": "Switch",
-  "identifier": "com.switch.melonx",
+  "name": "MeloNX",
+  "identifier": "com.stossy11.MeloNX",
   "apps": [
     {
       "beta": false,
       "name": "melonx",
-      "bundleIdentifier": "com.switch.melonx",
+      "bundleIdentifier": "com.stossy11.MeloNX",
       "developerName": "stossy11",
       "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
       "version": "2.702.633",
