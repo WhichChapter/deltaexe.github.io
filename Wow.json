@@ -1,5 +1,5 @@
 {
-  "name": "MeloNX",
+  "name": "PojavLauncher",
   "identifier": "com.stossy11.MeloNX",
   "apps": [
     {
@@ -11,7 +11,7 @@
       "version": "2.2",
       "versionDate": "2025-05-07T11:36:00+02:00",
       "versionDescription": "DCNet support, new on-screen gamepad",
-      "downloadURL": "https://github.com/WhichChapter/deltaexe.github.io/releases/download/S/MeloNX.ipa",
+      "downloadURL": "https://github.com/WhichChapter/deltaexe.github.io/releases/download/T/net.kdt.pojavlauncher-2.2-ios.ipa",
       "localizedDescription": "Flycast is a Dreamcast, Naomi, Naomi 2 and Atomiswave emulator.",
       "iconURL": "https://github.com/flyinghead/flycast/raw/master/shell/linux/flycast.png",
       "tintColor": "9b54fd",
